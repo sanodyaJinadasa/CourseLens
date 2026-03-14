@@ -122,9 +122,7 @@ with col2:
     ax.set_title("Rating Distribution")
     st.pyplot(fig)
 
-# -------------------------------------------------
 # Price distribution
-# -------------------------------------------------
 with col3:
     fig, ax = plt.subplots(figsize=(6,4))
     filtered["Price_value"].hist(bins=20, ax=ax)
