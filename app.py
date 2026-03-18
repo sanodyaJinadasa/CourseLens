@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 
+#
 st.set_page_config(page_title="Online Course Dashboard", layout="wide")
 
 # load data
